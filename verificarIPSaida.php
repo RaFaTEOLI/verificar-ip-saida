@@ -14,7 +14,7 @@ $to = "</h3>";
 echo getStringBetween($url, $from, $to) . "\n";
 
 function getStringBetween($str, $from, $to) {
-        $sub = substr($str, strpos($str,$from)+strlen($from),strlen($str));
-        return substr($sub,0,strpos($sub,$to));
+   $sub = substr($str, strpos($str,$from)+strlen($from),strlen($str));
+   return substr($sub,0,strpos($sub,$to));
 }
 ?>
